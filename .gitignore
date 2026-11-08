@@ -1,0 +1,35 @@
+# Ambiente virtual Python
+venv/
+.venv/
+env/
+ENV/
+
+# Cache e bytecodes do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dataset extraído localmente (gerado pelo Passo 1: extrair_frames.py)
+data/
+
+# Artefatos gerados pelo treinamento (gerados pelo Passo 2: train.py)
+*.keras
+*.h5
+class_names.json
+curvas.png
+
+# Vídeos anotados de saída (gerados pelo Passo 3: detectar.py)
+saida_*.mp4
+
+# PDFs gerados e documentos da entrega (dataset_imagens.pdf, Respostas - Parte 5.pdf)
+*.pdf
+
+# Capturas de tela e arquivos internos auxiliares
+matriz_de_confusao.png
+saida_teste_final.png
+AGENTS.md
+TASK.md
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
